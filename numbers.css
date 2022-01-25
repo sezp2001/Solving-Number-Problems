@@ -1,0 +1,48 @@
+header{
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Papyrus", Charcoal, fantasy;
+    font-size: 25px;
+    background-color:rgb(255, 182, 193);
+}
+.input{
+    font-family: "Papyrus", Charcoal, fantasy;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid;
+    height: 20cm;
+    background-image: url('images/number.gif');
+    overflow: auto;
+    text-align: center;
+}
+strong{
+    
+    box-sizing: border-box;
+    background-color:blueviolet;
+    font-family: "Papyrus", Charcoal, fantasy;
+    font-size: 25px;
+    height: 10cm;
+    text-align: center;
+}
+button{
+    height: 1.0cm;
+    width: 2.5cm;
+    transform: translateX(705%);
+    padding-left: 5px;
+    border-radius: 2px;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.credits{
+    text-align:center;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: rgb(255, 182, 193);
+    font-family: "Georgia", Charcoal, sans-serif;
+
+}
+h4{
+    font-size: 25px;
+    color:azure;
+}

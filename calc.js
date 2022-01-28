@@ -22,7 +22,7 @@ function problem1(){
 function problem2(){
     var outputObj = document.getElementById("output");
     var num = parseInt(prompt("Please enter a number: ", ""));
-    outputObj.innerHTML = "number: " + num + "<br><br>sum of digits: "; 
+    outputObj.innerHTML = "number: " + num + "<br><br>Sum of digits: "; 
     var digit = 0;
     var sum = 0;
   
@@ -34,7 +34,6 @@ function problem2(){
        
     }
     outputObj.innerHTML=outputObj.innerHTML+sum.toFixed();
-    outputObj.innerHTML = outputObj.innerHTML + "<br><br>" + "program ended";
     document.getElementsByTagName("button")[0].setAttribute("disabled","true");
     
 }
@@ -52,10 +51,6 @@ function problem3(){
     }
 
     outputObj.innerHTML=outputObj.innerHTML+ fact;
-
-
-
-    outputObj.innerHTML = outputObj.innerHTML + "<br><br>" + "program ended";
     document.getElementsByTagName("button")[0].setAttribute("disabled","true");
 }
 function problem4(){
@@ -82,7 +77,6 @@ function problem4(){
 
       outputObj.innerHTML=outputObj.innerHTML+ fib + ", ";
   }
-    outputObj.innerHTML = outputObj.innerHTML + "<br><br>" + "program ended";
     document.getElementsByTagName("button")[0].setAttribute("disabled","true");
 }
 
